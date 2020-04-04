@@ -1,17 +1,10 @@
 # digging-into-webpack
 
-## Basic
+**Integration with React**
 
-### npm script
+## npm script
 
 - npm run dev
 - npm run prod
-- npm run prod:typescript
-- npm run prod:analyze
-- npm run prod:compress
-
-### plugin
-
-### loader
-
-## Advance -
+- npm run lint
+- npm run format

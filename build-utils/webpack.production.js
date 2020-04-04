@@ -1,4 +1,5 @@
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 module.exports = mode => {
   return {
     output: {
@@ -12,6 +13,6 @@ module.exports = mode => {
         }
       ]
     },
-    plugins: [new MiniCssExtractPlugin()]
+    plugins: [new CleanWebpackPlugin(), new MiniCssExtractPlugin()]
   };
 };
